@@ -1,0 +1,31 @@
+{
+  "name": "gitbook-plugin-bg-nest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "cp node_modules/bg-nest/dist/*.js assets/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "gitbook": ">=3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypc/gitbook-plugin-bg-nest.git"
+  },
+  "keywords": [
+    "nest",
+    "gitbook"
+  ],
+  "author": "hypc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hypc/gitbook-plugin-bg-nest/issues"
+  },
+  "homepage": "https://github.com/hypc/gitbook-plugin-bg-nest#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "bg-nest": "^0.0.3"
+  }
+}
